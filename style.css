@@ -1,0 +1,27 @@
+.group {
+  display: flex;
+  flex-direction:column;
+}
+
+.item {
+  flex:1;
+  margin:10px;
+}
+
+form input, form textarea {
+  width:100%;
+  margin-bottom:20px;
+}
+
+form textarea {
+  height:200px;
+}
+
+
+@media all and (min-width: 800px) {
+  body {
+    margin:0 30%;
+  }
+
+
+}
